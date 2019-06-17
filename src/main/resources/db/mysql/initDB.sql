@@ -1,5 +1,5 @@
 CREATE DATABASE IF NOT EXISTS petclinic;
-GRANT ALL PRIVILEGES ON petclinic.* TO pc@localhost IDENTIFIED BY 'pc';
+GRANT ALL PRIVILEGES ON petclinic.* TO petclinic@mysqldb.cepc9xe91v1n.us-east-1.rds.amazonaws.com IDENTIFIED BY 'petclinic';
 
 USE petclinic;
 
